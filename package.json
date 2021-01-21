@@ -4,6 +4,8 @@
   "description": "personal exercises",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "font-awesome": "^4.7.0",
     "lite-server": "^2.6.1"
   },
   "devDependencies": {},
