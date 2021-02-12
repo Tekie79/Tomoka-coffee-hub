@@ -4,9 +4,11 @@
   "description": "personal exercises",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta1",
+    "bootstrap": "^4.5.2",
     "font-awesome": "^4.7.0",
-    "lite-server": "^2.6.1"
+    "jquery": "^3.5.1",
+    "lite-server": "^2.6.1",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,5 +17,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tekie",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tekie79/exercises.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tekie79/exercises/issues"
+  },
+  "homepage": "https://github.com/Tekie79/exercises#readme"
 }

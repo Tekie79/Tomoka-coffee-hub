@@ -1,0 +1,25 @@
+/*font-family: 'Acme', sans-serif; */
+body {
+  background-color: #fff0f0;
+}
+.nav-head {
+  background-color: #ebd4d4;
+  border-bottom: ridge 2px white;
+  box-shadow: 0px 1px 3px rgb(235, 209, 204);
+}
+nav {
+  margin-top: 0px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Acme', sans-serif;;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+li {
+  padding-right: 30px;
+  margin-bottom: 0;
+}
