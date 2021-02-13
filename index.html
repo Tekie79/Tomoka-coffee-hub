@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercises</title>
+    <title>Tomoka</title>
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
     <header>
       <div class="container-fluid pb-0">
@@ -28,10 +29,11 @@
               src="images/koffee.png"
               alt=""
               class="d-flex ml-5 img-fluid"
-              width="10%"
+              width="100vh"
             />
             <div class="col media-body align-self-center">
-              <h1>Tomoka Coffee House</h1>
+              <h1>TOMOKA</h1>
+              <h5 class="text-center">Coffee Hub</h5>
             </div>
           </div>
         </div>
@@ -46,6 +48,9 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <a href="#" role="button" class="nav-link user d-sm-none"
+            ><i class="fa fa-lg fa-user"></i
+          ></a>
           <div class="collapse navbar-collapse" id="kaf">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
@@ -55,17 +60,40 @@
                 <a href="#" class="nav-link">Menu</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Online Order</a>
+                <a href="#" class="nav-link text-nowrap">Online Order</a>
               </li>
               <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Subscribe</a>
+              </li>
               <li class="nav-item"><a href="#" class="nav-link">About</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div class="container"></div>
-    <footer></footer>
+    <!-- body -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 ml-3">
+          <img
+            src="images/coffee-top.png"
+            alt="cup-of-coffee"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col align-self-center text-center">
+          <a href="#" role="button" class="btn btn-lg text-white btnsColor"
+            >Order Now</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="container"></div>
+    </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
